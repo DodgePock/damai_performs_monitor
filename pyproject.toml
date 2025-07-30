@@ -1,0 +1,9 @@
+[project]
+name = "damai_performs_monitor"
+version = "0.1.0"
+dependencies = [
+    "requests",
+    "parsel",
+    "messpusher @ git+https://github.com/DodgePock/Messpusher.git"
+]
+requires-python = ">=3.13"

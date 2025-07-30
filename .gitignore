@@ -1,0 +1,6 @@
+/perform_caches/
+/.venv/
+/__pycache__/
+*.log
+settings.py
+uv.lock
