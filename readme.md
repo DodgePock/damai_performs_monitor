@@ -1,4 +1,4 @@
-# DAMAI_PERFORMS_MONITOR
+## DAMAI_PERFORMS_MONITOR
 
 监测大麦网演出新场次名称，关键词匹配成功即推送通知
 
@@ -35,6 +35,6 @@ crontab -e
 for example, to run it every minutes, add following line to your crontab
 
 ``` bash
-*/10 * * * * cd /path/to/damai_performs_monitor && uv run monitor.py
+* * * * * cd /path/to/damai_performs_monitor && uv run monitor.py
 ```
 Replace `/path/to/damai_performs_monitor` with your actual project path.
